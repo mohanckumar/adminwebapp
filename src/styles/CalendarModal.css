@@ -1,0 +1,58 @@
+.calendar-overlay {
+    background-color: rgba(250, 244, 244, 0.5);
+  }
+  
+  .calendar-modal {
+    margin: auto;
+    background: #1d1d2f;
+    color: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar-header h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 0;
+  }
+  
+  .calendar-weekdays span {
+    text-align: center;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .calendar-days span {
+    background: #2a2a40;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .empty-day {
+    visibility: hidden;
+  }
+  
